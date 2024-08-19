@@ -6,6 +6,7 @@ arr = [int(sys.stdin.readline()) for _ in range(a)]
 
 counter = Counter(arr)
 max_count = max(counter.values())
+print(max_count)
 modes = [num for num, freq in counter.items() if freq == max_count]
 
 arr.sort()
