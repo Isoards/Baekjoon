@@ -1,4 +1,4 @@
-arr = [[0 for _ in range(101)] for _ in range(101)]
+xarr = [[0 for _ in range(101)] for _ in range(101)]
 a = int(input())
 result = 0
 
